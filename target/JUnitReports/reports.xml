@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="35.159" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="That is Cucumber for logimn check" name="Login to application" time="34.713">
+<system-out><![CDATA[
+Given brower got opened with details........................................passed
+And User move to Layout dropdown............................................passed
+When User enter userid and password.........................................passed
+And click on Login button...................................................passed
+Then User should navigate to Warning page...................................passed
+]]></system-out>
+</testcase>
+</testsuite>
