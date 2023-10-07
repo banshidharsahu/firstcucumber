@@ -6,7 +6,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 
 import io.cucumber.java.After;
@@ -15,6 +14,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import pagefectory.LoginPage;
 
 public class StepdifinationforLogin {
@@ -24,7 +24,8 @@ public class StepdifinationforLogin {
 	/// Hooks
 	@Before
 	public void setupfirst() throws InterruptedException {
-		WebDriverManager.chromedriver().setup();
+		//WebDriverManager.chromedriver().setup();
+		
 		//
 		// // Create a WebDriver instance for Chrome
 		driver = new ChromeDriver();
